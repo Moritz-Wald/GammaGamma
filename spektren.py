@@ -27,7 +27,7 @@ for i, (detector, compound) in enumerate(it.product(detectors, compounds)):
                     s=0.15,
                     label=f'${compound}$ on ${detector}$-detector')
     axes[i].legend(loc='upper right', fontsize='large')
-    axes[i].grid(alpha=0.3)
+    axes[i].grid(alpha=0.5)
     axes[i].labelsize = 'x-large'
     if i in [1, 3]:
         axes[i].set_xlabel('Energy (keV)')
